@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="sign_in.html">Sign in</a>
+    <a href="transfer.html">Transfers</a>
+</nav>
+<nav class="register-container">
+    <nav class="title">Enter your details</nav>
+    <h5>PERSONAL INFORMATION</h5>
+    <form class="login-form">
+
+
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <h5>CONTACT INFORMATION</h5>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+        <label for="country">Country of Residence:</label>
+        <input type="text" id="country" name="country" placeholder="Country" required>
+
+        <label for="zipcode">Postal Code:</label>
+        <input type="text" id="zipcode" name="zipcode" placeholder="Postal Code" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="City" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Address" required>
+
+         <h5>CARD DETAILS</h5>
+        <label for="cardnumber">Credit Card Number:</label>
+        <input type="text" id="cardnumber" name="cardnumber" placeholder="Card Number" required>
+
+        <label for="expirydate">Expiry Date:</label>
+        <input type="text" id="expirydate" name="expirydate" placeholder="MM/YY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+        <label>
+            <input type="checkbox" id="savecard" name="savecard">
+            Save credit card details
+        </label>
+
+        <button type="submit">Register</button>
+    </form>
+</nav>
+
+<footer>
+</footer>
+</body>
+</html>
