@@ -50,7 +50,7 @@ h2,label {
   color: #3a1b2f;
 }
 @media screen and (max-width: 400px) {
-  .schedule {
+  .small-screen {
     flex-direction: column;
   }
 }
