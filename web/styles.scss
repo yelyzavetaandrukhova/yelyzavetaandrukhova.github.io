@@ -67,8 +67,8 @@ h2,label {
 
 
 @media screen and (max-width: 400px) {
-    .schedule {
-        flex-direction: column; // Змінює напрямок на стовпець для малих екранів
+    .small-screen {
+        flex-direction: column; 
     }
 }
 
